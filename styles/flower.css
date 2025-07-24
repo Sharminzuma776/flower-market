@@ -52,7 +52,8 @@
 }
 .nav-link{
     text-decoration: none;
-    margin-right: 48px;
+    margin-right: 60px;
+    
 }
 
 .navbar{
@@ -64,6 +65,15 @@
     margin: 0 auto;
 }
 
+.navbar-paragraph{
+    margin-top: 2px;
+    margin-left: 1px;
+}
+
+.cart-icon{
+    width: 23px;
+    height: 23px;
+}
 /* banner-style */
 
 .banner{
@@ -75,27 +85,42 @@
     font-size: 60px;
 }
 
-.banner-description{
-    margin-top: 0px;
-}
 
 .banner-image{
     width: 100%;
 }
+
+/* card related style */
+ .card-content{
+    max-width: 850px;
+    margin: 0 auto;
+ }
+
+ .card-header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+ }
+
+ .card-description{
+    text-align: center;
+
+ }
 
 
 
 /* media responsive */
 
 @media screen and (max-width: 576px) {
-       .nav-links {
+    ul li{
         display: none;
     }
-
-    .banner{
+       .banner{
         flex-direction: column-reverse;
-    }
+    }    
     .banner-title{
         font-size: 24px;
     }
+
+   
 }
