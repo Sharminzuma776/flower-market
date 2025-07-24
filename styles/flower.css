@@ -44,6 +44,9 @@
 .primary-color{
     color: rgba(0, 0, 0, 0.5);
 }
+.dark-black-2{
+    color: #111111;
+}
 
 /* navbar style */
 
@@ -106,6 +109,82 @@
     text-align: center;
 
  }
+ .card-title{
+    font-size: 22px;
+    font-weight: 500px;
+ }
+
+ .card-price{
+    font-size: 22px;
+    font-weight: bold;
+ }
+.card-btn{
+    background-color: #E95A08;
+    width: 270px;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.card-section{
+     max-width: 1140px;
+     margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+     
+}
+
+.card-container{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+
+}
+
+/* flower and plant lover section */
+.plantstore-section{
+     max-width: 1140px;
+     margin: 0 auto;
+     margin-top: 100px;
+     align-items: center;
+     justify-content: space-between;
+}
+.plantstore-img{
+    width: 450px;
+    height: 500px;
+    position: absolute;
+}
+
+.trusted-badge{
+    width: 286px;
+    height: 286px;
+    position: relative;
+    
+}
+
+.plantstore-header{
+    font-size: 45px;
+    font-weight: bold;
+    padding-left: 250px;
+    margin-top: 30px;
+    
+}
+
+.plantstore-item{
+    font-size: 22px;
+    padding-left: 250px;
+    
+    
+}
+
+
+
+
+
+
+
 
 
 
@@ -118,9 +197,18 @@
        .banner{
         flex-direction: column-reverse;
     }    
-    .banner-title{
+    .banner-title , .card-header{
         font-size: 24px;
     }
+
+    .card-description , .banner-description {
+        font-size: 14px;
+    }
+    .card-section{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
 
    
 }
