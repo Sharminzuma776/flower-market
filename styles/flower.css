@@ -197,7 +197,6 @@
 }
 
 .dis-section{
-    
     margin: 0 130px;
     display: grid;
     grid-template-columns: 300px 750px;
@@ -211,16 +210,6 @@
     gap: 10px;
 }
 
-.image-1, .image-2, .image-3{
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
 .image-1{
     background-image: url('/assets/deal-bloom.png');
 
@@ -234,6 +223,18 @@
 .image-3{
     background-image: url('/assets/deal-zabo.png');
 }
+
+.image-1, .image-2, .image-3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
 
 .shop-now{
     color: white;
@@ -259,12 +260,12 @@
 }
 
 .colour-bunch-sec{
-    background-image: url('/assets/news-letter-bg.png');
+    background-image: url('../assets/news-letter-bg.png');
     background-size: cover;
     background-position: center;
     align-items: center;
-    height: 533px;
     justify-content: center;
+    height: 533px;
     display: flex;
     margin-top: 70px;
    
