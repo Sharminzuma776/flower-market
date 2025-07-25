@@ -232,7 +232,7 @@
 }
 
 .image-3{
-    background-image: url(../assets/deal-zabo.png);
+    background-image: url('/assets/deal-zabo.png');
 }
 
 .shop-now{
