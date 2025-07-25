@@ -210,6 +210,19 @@
     gap: 10px;
 }
 
+
+
+.image-1, .image-2, .image-3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
 .image-1{
     background-image: url('../assets/deal-bloom.png');
 
@@ -223,18 +236,6 @@
 .image-3{
     background-image: url('../assets/deal-zabo.png');
 }
-
-.image-1, .image-2, .image-3{
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
 
 .shop-now{
     color: white;
