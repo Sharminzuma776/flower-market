@@ -211,17 +211,17 @@
 }
 
 .image-1{
-    background-image: url('/assets/deal-bloom.png');
+    background-image: url('../assets/deal-bloom.png');
 
 }
 
 .image-2{
-    background-image: url('/assets/deal-ana.png');
+    background-image: url('../assets/deal-ana.png');
 
 }
 
 .image-3{
-    background-image: url('/assets/deal-zabo.png');
+    background-image: url('../assets/deal-zabo.png');
 }
 
 .image-1, .image-2, .image-3{
