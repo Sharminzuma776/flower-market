@@ -336,7 +336,7 @@
 /* media responsive */
 
 @media screen and (max-width: 576px) {
-    ul li{
+   .navbar ul li{
         display: none;
     }
        .banner{
@@ -362,105 +362,100 @@
     }
 
    .card-container img{
-    width: 90%;
+    width: 80%;
    }
    .card-btn{
-    width: 90%;
+    width: 80%;
    }
 
    /* flower and plants lover */
-/* 
-   .plantstore-section{
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-    padding: 15px;
-    gap: 20px;
-   }
-   .flower-div{
-    width: 100%;
-    max-width: 350px;
-    margin-bottom: 0px;
-   }
 
-   .plantstore-img{
-    max-width: 100%;
-    height: auto;
-    display: block;
-
-   }
-   .trusted-badge{
-    display: none;
-   }
-   .plantstore-header{
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10px;
-   }
-   .flower-content{
-   width: 90%;
-   padding-left: 0;
-   text-align: center;
-   }
-   */
 .plantstore-section{
-    flex-direction: column;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
+     flex-direction: column;
+      margin-top: 50px;
+        padding: 0 20px;
+        gap: 40px;
+        max-width: 100%;
+        align-items: flex-start;
+ }
+
+  .flower-div {
+        width: 100%;
+        display: flex; 
+        justify-content: center; 
+    }
+
+     .trusted-badge {
+        display: none;
+    }
+
+     .plantstore-header {
+        font-size: 32px; 
+        width: 100%; 
+    }
+
+     .plantstore-item {
+        font-size: 18px; 
+        text-align: left; 
+        width: 100%; 
+    }
 
 
+/* discount section */
 
+.dis-content {
+        padding: 10px 0; 
+    }
 
-  /* discount sec */
-    .dis-section {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 10px;
-  }
-
-  .dis-div {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .image-1,
-  .image-2,
-  .image-3 {
-    width: 100%;
-    height: 140px;
-    padding: 50px;
-    align-items: center;
-    /* margin-right: 200px; */
-    margin: 0 auto;
-    
-    
-  }
-
-  .dis-content h1 {
-    text-align: center;
-    font-size: 24px;
-  }
+ .dis-header {
+        font-size: 36px; 
+    }
 
   .dis-description {
-    text-align: center;
-    font-size: 12px;
-    padding: 0 10px;
-  }
+        font-size: 16px;
+        margin-bottom: 20px; 
+        padding: 0 15px; 
+    }
+  .dis-section {
+        margin: 0 20px; 
+        grid-template-columns: 1fr; 
+        gap: 15px; 
+    }
+.dis-div {
+        width: 100%;
+        gap: 15px; 
+    }
+    .image-1,
+    .image-2,
+    .image-3 {
+        min-height: 180px; 
+        padding: 15px;
+    }
 
-  /* .shop-now,
-  .shop-now-3 {
-    position: absolute;
-    bottom: 15px;
-    left: 10px;
-  } */
+    .shop-now {
+        font-size: 16px; 
+    }
 
-  .shop-now-3{
-    font-size: 12px;
-  }
+    
+    .shop-now-3 {
+        font-size: 24px;
+    }
 
+    
+    .dis-3 {
+        font-size: 32px; 
+    }
+        
+
+
+
+
+
+
+
+
+
+ /* footer  */
  .colour-header{
     font-size: 20px
  }
@@ -487,8 +482,6 @@
     font-size: 16px;
     text-align: center;
 }
-/* body{
-    overflow-x: hidden;
-} */
+
 
 } 
