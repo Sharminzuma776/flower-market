@@ -362,11 +362,14 @@
     }
 
    .card-container img{
-    width: 80%;
+    width: 90%;
+   }
+   .card-btn{
+    width: 90%;
    }
 
    /* flower and plants lover */
-
+/* 
    .plantstore-section{
     flex-direction: column;
     align-items: center;
@@ -392,28 +395,24 @@
    .plantstore-header{
     font-size: 24px;
     font-weight: bold;
-    /* text-align: center; */
+    text-align: center;
     margin-bottom: 10px;
    }
-   /* .flower-content{
+   .flower-content{
    width: 90%;
-   padding-left: 0; */
-   /* text-align: center; */
-
-   /* .plantstore-item{
-    font-size: 14px;
-    padding-left: 0;
-    list-style-position: inside;
-    margin: 0 auto;
-    max-width: 90%;
-   } */
-
-   .plantstore-item li{
-    flex-direction: column;
-    line-height: 1.5;
-    margin-bottom: 8px;
-    text-align: left;
+   padding-left: 0;
+   text-align: center;
    }
+   */
+.plantstore-section{
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+
+
   /* discount sec */
     .dis-section {
     display: flex;
@@ -431,9 +430,12 @@
   .image-2,
   .image-3 {
     width: 100%;
-    height: 150px;
-    padding: 100px;
-    justify-content: center;
+    height: 140px;
+    padding: 50px;
+    align-items: center;
+    /* margin-right: 200px; */
+    margin: 0 auto;
+    
     
   }
 
@@ -448,11 +450,15 @@
     padding: 0 10px;
   }
 
-  .shop-now,
+  /* .shop-now,
   .shop-now-3 {
     position: absolute;
     bottom: 15px;
     left: 10px;
+  } */
+
+  .shop-now-3{
+    font-size: 12px;
   }
 
  .colour-header{
