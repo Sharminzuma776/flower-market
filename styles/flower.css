@@ -97,6 +97,7 @@
  .card-content{
     max-width: 850px;
     margin: 0 auto;
+    width: 100%;
  }
 
  .card-header{
@@ -152,7 +153,6 @@
     justify-content: space-between;
     align-items: center;
     gap: 0px;
-    /* border: 2px solid blue; */
 
 }
 .flower-div{
@@ -198,7 +198,6 @@
 
 .dis-section{
     
-    /* border: 2px solid greenyellow; */
     margin: 0 130px;
     display: grid;
     grid-template-columns: 300px 750px;
@@ -256,7 +255,7 @@
 
 .footer{
     max-width: 1440px;
-    /* border: 2px solid cadetblue; */
+    
 }
 
 .colour-bunch-sec{
@@ -295,7 +294,6 @@
 /* footer section */
 
 .footer-section{
-    /* border: 2px solid crimson; */
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     gap: 20px;
@@ -345,17 +343,146 @@
         flex-direction: column-reverse;
     }    
     .banner-title , .card-header{
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .card-description , .banner-description {
-        font-size: 14px;
+        font-size: 12px;
     }
     .card-section{
         display: grid;
         grid-template-columns: repeat(2 , 1fr);
+
+    }
+    .card-container{
+        padding: 1px;
+        width: 100%;
+        gap: 2px;
+        padding-left: 0px;
     }
 
+   .card-container img{
+    width: 80%;
+   }
 
-   
+   /* flower and plants lover */
+
+   .plantstore-section{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding: 15px;
+    gap: 20px;
+   }
+   .flower-div{
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 0px;
+   }
+
+   .plantstore-img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+   }
+   .trusted-badge{
+    display: none;
+   }
+   .plantstore-header{
+    font-size: 24px;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-bottom: 10px;
+   }
+   /* .flower-content{
+   width: 90%;
+   padding-left: 0; */
+   /* text-align: center; */
+
+   /* .plantstore-item{
+    font-size: 14px;
+    padding-left: 0;
+    list-style-position: inside;
+    margin: 0 auto;
+    max-width: 90%;
+   } */
+
+   .plantstore-item li{
+    flex-direction: column;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    text-align: left;
+   }
+  /* discount sec */
+    .dis-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .dis-div {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .image-1,
+  .image-2,
+  .image-3 {
+    width: 100%;
+    height: 150px;
+    padding: 100px;
+    justify-content: center;
+    
+  }
+
+  .dis-content h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .dis-description {
+    text-align: center;
+    font-size: 12px;
+    padding: 0 10px;
+  }
+
+  .shop-now,
+  .shop-now-3 {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+  }
+
+ .colour-header{
+    font-size: 20px
+ }
+ #Email{
+    width: 250px;
+    height: 30x;
+ }
+ .footer-btn{
+    width: 100px;
+ }
+
+
+.footer-section{
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+    margin-left: 0px;
 }
+.footer-links{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.footer-des{
+    font-size: 16px;
+    text-align: center;
+}
+/* body{
+    overflow-x: hidden;
+} */
+
+} 
