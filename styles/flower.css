@@ -147,13 +147,12 @@
 .plantstore-section{
     max-width: 1140px;
     margin: 0 auto;
-
     margin-top: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 0px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 
 }
 .flower-div{
@@ -173,13 +172,12 @@
 .plantstore-header{
     font-size: 45px;
     font-weight: bold;
-    /* padding-left: 250px;
-    margin-top: 30px; */
+   
 } 
 
 .plantstore-item{
     font-size: 22px;
-    /* padding-left: 250px;    */
+  
 }
 
 /* latest deals section */
@@ -200,7 +198,7 @@
 
 .dis-section{
     
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     margin: 0 130px;
     display: grid;
     grid-template-columns: 300px 750px;
@@ -217,9 +215,7 @@
 .image-1, .image-2, .image-3{
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
     color: white;
-    /* padding: 20px; */
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -240,7 +236,99 @@
     background-image: url(../assets/deal-zabo.png);
 }
 
+.shop-now{
+    color: white;
+    font-weight: 500;
+}
+.shop-now-3{
+    font-weight: 500;
+    font-size: 28px;
+    color: white;
+}
 
+.dis-3{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+/* colourful bunch */
+
+.footer{
+    max-width: 1440px;
+    /* border: 2px solid cadetblue; */
+}
+
+.colour-bunch-sec{
+    background-image: url('/assets/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    height: 533px;
+    justify-content: center;
+    display: flex;
+    margin-top: 70px;
+   
+}
+
+.colour-content{
+    text-align: center;
+    
+} 
+ form{
+    display: flex;
+    margin: 0;
+    padding: 0;
+ }
+
+.colour-header{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+#Email{
+    width: 644px;
+    height: 54px;
+}
+
+/* footer section */
+
+.footer-section{
+    /* border: 2px solid crimson; */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    padding: 40px;
+    align-items: start;
+    margin: 0px 150px;
+}
+
+.footer-des{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 8px;
+    margin-left: 30px;
+}
+
+.footer-links a{
+    display: block;
+    color: #8987A1;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+.social-media{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: flex-end;
+}
 
 
 
