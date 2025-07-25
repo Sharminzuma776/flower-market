@@ -1,4 +1,11 @@
+body{
+    max-width: 1140px;
+}
+
+
 /* fonts1*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 .noto-serif-fonts {
@@ -22,6 +29,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+
+
 
 /* shared style */
 
@@ -338,6 +348,11 @@
 /* media responsive */
 
 @media screen and (max-width: 576px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
    .navbar ul li{
         display: none;
     }
